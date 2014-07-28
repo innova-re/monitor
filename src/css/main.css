@@ -1,0 +1,15 @@
+.nav.navbar-nav.side-nav li{
+	display: none;
+}
+
+.nav.navbar-nav.navbar-right.navbar-user {
+	display: none;
+}
+
+.panel-footer.announcement-bottom {
+	display: none;
+}
+
+.alert.alert-info.alert-dismissable {
+	display: none;
+}
