@@ -39,10 +39,10 @@ $(document).ready(function(){
 $(function () {
 
 	var data = [
-		{ label: "Series 0", data: 1 },
-		{ label: "Series 1", data: 3 },
-		{ label: "Series 2", data: 9 },
-		{ label: "Series 3", data: 20 }
+		{ label: "Sardegna Ricerche", data: 1 },
+		{ label: "UniSS", data: 3 },
+		{ label: "UniCA", data: 9 },
+		{ label: "CNR", data: 20 }
 	];
 	
 	var plotObj = $.plot($("#flot-chart-pie"), data, {
@@ -78,8 +78,8 @@ $(function () {
     
     function doPlot(position) {
         $.plot($("#flot-chart-multiple-axes"),
-           [ { data: oilprices, label: "Oil price ($)" },
-             { data: exchangerates, label: "USD/EUR exchange rate", yaxis: 2 }],
+           [ { data: oilprices, label: "Ricerca" },
+             { data: exchangerates, label: "Privato", yaxis: 2 }],
            { 
 				xaxes: [ { mode: 'time' } ],
 				yaxes: [ { min: 0 },

@@ -52,10 +52,10 @@ Morris.Area({
 Morris.Donut({
   element: 'morris-chart-donut',
   data: [
-    {label: "Referral", value: 42.7},
-    {label: "Direct", value: 8.3},
-    {label: "Social", value: 12.8},
-    {label: "Organic", value: 36.2}
+    {label: "Università", value: 42.7},
+    {label: "Riverca", value: 8.3},
+    {label: "Regione", value: 12.8},
+    {label: "Privati", value: 36.2}
   ],
   formatter: function (y) { return y + "%" ;}
 });
@@ -112,12 +112,10 @@ Morris.Line({
 Morris.Bar ({
   element: 'morris-chart-bar',
   data: [
-	{device: 'iPhone', geekbench: 136},
-	{device: 'iPhone 3G', geekbench: 137},
-	{device: 'iPhone 3GS', geekbench: 275},
-	{device: 'iPhone 4', geekbench: 380},
-	{device: 'iPhone 4S', geekbench: 655},
-	{device: 'iPhone 5', geekbench: 1571}
+	{device: 'Ingegneria', geekbench: 136},
+	{device: 'Fisica', geekbench: 137},
+	{device: 'Chimica', geekbench: 275},
+	{device: 'Biologia', geekbench: 380}
   ],
   xkey: 'device',
   ykeys: ['geekbench'],
